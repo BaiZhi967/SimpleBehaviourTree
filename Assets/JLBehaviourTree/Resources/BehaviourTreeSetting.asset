@@ -1,0 +1,1484 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a8eee827030b8641bd80ae787f9c6c6, type: 3}
+  m_Name: BehaviourTreeSetting
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: TreeData
+      Entry: 7
+      Data: 0|JLBehaviourTree.BehaviourTree.BehaviourTreeData, Assembly-CSharp
+    - Name: IsShow
+      Entry: 5
+      Data: false
+    - Name: Root
+      Entry: 7
+      Data: 1|JLBehaviourTree.BehaviourTree.Selector, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: d9c03516-e39b-42a7-b00b-f975bd5cb5ce
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 400
+    - Name: 
+      Entry: 4
+      Data: -881.7741
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u9009\u62E9\u6839"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: ChildNodes
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 3|JLBehaviourTree.Test.DiscoveryTarget, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 46d191b2-7e80-4230-8be0-fbd47f7b79a1
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 4
+      Data: -711.7741
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u53D1\u73B0\u76EE\u6807\u65F6"
+    - Name: NodeType
+      Entry: 3
+      Data: 3
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: ChildNode
+      Entry: 7
+      Data: 4|JLBehaviourTree.Test.Parallel, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: a39d6bb9-e230-4e65-82d4-927d16076158
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 4
+      Data: -541.7741
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u55B7\u706B\u8FFD\u51FB"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: ChildNodes
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 6|JLBehaviourTree.Test.SetObjectActive, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 62860620-e4b7-4fe0-8434-f77c7f07cb56
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -371.7741
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u55B7\u706B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _particle
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|JLBehaviourTree.Test.Goto, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 3860529d-383e-4bd1-a286-b54c0f22b9c3
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: -371.7741
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u8FFD\u51FB"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: speed
+      Entry: 4
+      Data: 5
+    - Name: move
+      Entry: 6
+      Data: 
+    - Name: destination
+      Entry: 6
+      Data: 
+    - Name: failover
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _self
+      Entry: 6
+      Data: 
+    - Name: _destination
+      Entry: 6
+      Data: 
+    - Name: _warnRange
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|JLBehaviourTree.BehaviourTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: f3a2f83b-5c3d-4842-ba9d-cacbbf424695
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 700
+    - Name: 
+      Entry: 4
+      Data: -711.7741
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5DE1\u903B"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 3
+    - Name: ChildNodes
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 10|JLBehaviourTree.Test.Parallel, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 3111ca97-873b-4a61-a7c0-0c521e813a51
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 500
+    - Name: 
+      Entry: 4
+      Data: -541.7741
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5DE1\u903BA\u70B9"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 1
+    - Name: ChildNodes
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 12|JLBehaviourTree.Test.SetObjectActive, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: e491169c-5492-4bbe-8131-280861cff2d6
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 400
+    - Name: 
+      Entry: 4
+      Data: -371.7741
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u505C\u706B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: _isActive
+      Entry: 5
+      Data: false
+    - Name: _particle
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|JLBehaviourTree.Test.Goto, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: cbec5f1e-74bb-4915-b0de-163420722dd9
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 600
+    - Name: 
+      Entry: 4
+      Data: -371.7741
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u79FB\u52A8A"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 2
+    - Name: speed
+      Entry: 4
+      Data: 2.5
+    - Name: move
+      Entry: 6
+      Data: 
+    - Name: destination
+      Entry: 6
+      Data: 
+    - Name: failover
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|JLBehaviourTree.Test.Parallel, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 8d2d7602-c0a6-4e27-b9f7-afd4e57ca414
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 900
+    - Name: 
+      Entry: 4
+      Data: -541.7741
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5DE1\u903BB\u70B9"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 3
+    - Name: ChildNodes
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 16|JLBehaviourTree.Test.Goto, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 4a7a7d2c-7cd2-4419-8f9e-bb52ab7ca2f1
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 800
+    - Name: 
+      Entry: 4
+      Data: -371.7741
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u79FB\u52A8B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 3
+    - Name: speed
+      Entry: 4
+      Data: 2.5
+    - Name: move
+      Entry: 6
+      Data: 
+    - Name: destination
+      Entry: 6
+      Data: 
+    - Name: failover
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|JLBehaviourTree.Test.SetObjectActive, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 49f616a4-2357-46c7-9d16-788015136d70
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: -371.7741
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u505C\u706B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 1
+    - Name: _isActive
+      Entry: 5
+      Data: false
+    - Name: _particle
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currnetNode
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: selectIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeData
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: 
+      Entry: 7
+      Data: 19|JLBehaviourTree.BehaviourTree.Selector, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: f5c6561f-b27c-4aec-b34e-378adc1c4095
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1260.42212
+    - Name: 
+      Entry: 4
+      Data: -205
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u9009\u62E9\u6839"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: ChildNodes
+      Entry: 7
+      Data: 20|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 21|JLBehaviourTree.Test.DiscoveryTarget, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: efff4da7-4495-4009-a1fd-48e49727fcad
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 4
+      Data: -257.0001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u53D1\u73B0\u76EE\u6807\u65F6"
+    - Name: NodeType
+      Entry: 3
+      Data: 3
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: ChildNode
+      Entry: 7
+      Data: 22|JLBehaviourTree.Test.Parallel, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: ecd6f370-d140-485b-98b7-680ee57a3ed7
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 4
+      Data: -87.00009
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u55B7\u706B\u8FFD\u51FB"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: ChildNodes
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 24|JLBehaviourTree.Test.SetObjectActive, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: a37571c5-02dd-43bc-96d7-db90928037ac
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 82.99991
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u55B7\u706B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: _isActive
+      Entry: 5
+      Data: true
+    - Name: _particle
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|JLBehaviourTree.Test.Goto, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 8cf34b76-4572-42d6-8f3c-485f7213ce40
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 200
+    - Name: 
+      Entry: 4
+      Data: 82.99991
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u8FFD\u51FB"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: speed
+      Entry: 4
+      Data: 5
+    - Name: move
+      Entry: 6
+      Data: 
+    - Name: destination
+      Entry: 6
+      Data: 
+    - Name: failover
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _self
+      Entry: 6
+      Data: 
+    - Name: _destination
+      Entry: 6
+      Data: 
+    - Name: _warnRange
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|JLBehaviourTree.BehaviourTree.Sequence, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: cb004f2e-d7d8-4355-b975-63848a484576
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 700
+    - Name: 
+      Entry: 4
+      Data: -257.0001
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5DE1\u903B"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 3
+    - Name: ChildNodes
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 28|JLBehaviourTree.Test.Parallel, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: fd96bfc5-d8a6-43ef-8d54-3a5ce067eebb
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 500
+    - Name: 
+      Entry: 4
+      Data: -87.00009
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5DE1\u903BA\u70B9"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 1
+    - Name: ChildNodes
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 30|JLBehaviourTree.Test.SetObjectActive, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 4a823b64-4cf8-4735-979e-ecb9aed94a46
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 400
+    - Name: 
+      Entry: 4
+      Data: 82.99991
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u505C\u706B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: _isActive
+      Entry: 5
+      Data: false
+    - Name: _particle
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|JLBehaviourTree.Test.Goto, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 49e62391-0810-4182-9712-342e57e6a316
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 600
+    - Name: 
+      Entry: 4
+      Data: 82.99991
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u79FB\u52A8A"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 2
+    - Name: speed
+      Entry: 4
+      Data: 2.5
+    - Name: move
+      Entry: 6
+      Data: 
+    - Name: destination
+      Entry: 6
+      Data: 
+    - Name: failover
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|JLBehaviourTree.Test.Parallel, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 103dc78d-ff4b-4f82-a87a-db6dec61e19e
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 900
+    - Name: 
+      Entry: 4
+      Data: -87.00009
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5DE1\u903BB\u70B9"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 3
+    - Name: ChildNodes
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 34|JLBehaviourTree.Test.SetObjectActive, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 529ea8c7-aa73-42ea-afa8-671ad4066dee
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 800
+    - Name: 
+      Entry: 4
+      Data: 82.99991
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u505C\u706B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 1
+    - Name: _isActive
+      Entry: 5
+      Data: false
+    - Name: _particle
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|JLBehaviourTree.Test.Goto, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 5a442db3-4e4b-433a-878c-50135b1f8ac9
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 82.99991
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u79FB\u52A8B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 3
+    - Name: speed
+      Entry: 4
+      Data: 2.5
+    - Name: move
+      Entry: 6
+      Data: 
+    - Name: destination
+      Entry: 6
+      Data: 
+    - Name: failover
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currnetNode
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: selectIndex
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 9
+      Data: 21
+    - Name: 
+      Entry: 9
+      Data: 22
+    - Name: 
+      Entry: 9
+      Data: 24
+    - Name: 
+      Entry: 9
+      Data: 25
+    - Name: 
+      Entry: 9
+      Data: 26
+    - Name: 
+      Entry: 9
+      Data: 28
+    - Name: 
+      Entry: 9
+      Data: 30
+    - Name: 
+      Entry: 9
+      Data: 31
+    - Name: 
+      Entry: 9
+      Data: 32
+    - Name: 
+      Entry: 9
+      Data: 34
+    - Name: 
+      Entry: 9
+      Data: 35
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ViewTransform
+      Entry: 7
+      Data: 36|SaveTransform, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: scale
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: matrix
+      Entry: 7
+      Data: UnityEngine.Matrix4x4, UnityEngine.CoreModule
+    - Name: m00
+      Entry: 4
+      Data: 0
+    - Name: m10
+      Entry: 4
+      Data: 0
+    - Name: m20
+      Entry: 4
+      Data: 0
+    - Name: m30
+      Entry: 4
+      Data: 0
+    - Name: m01
+      Entry: 4
+      Data: 0
+    - Name: m11
+      Entry: 4
+      Data: 0
+    - Name: m21
+      Entry: 4
+      Data: 0
+    - Name: m31
+      Entry: 4
+      Data: 0
+    - Name: m02
+      Entry: 4
+      Data: 0
+    - Name: m12
+      Entry: 4
+      Data: 0
+    - Name: m22
+      Entry: 4
+      Data: 0
+    - Name: m32
+      Entry: 4
+      Data: 0
+    - Name: m03
+      Entry: 4
+      Data: 0
+    - Name: m13
+      Entry: 4
+      Data: 0
+    - Name: m23
+      Entry: 4
+      Data: 0
+    - Name: m33
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CopyNode
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 38|JLBehaviourTree.Test.Parallel, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 8494580e-1777-47c8-8802-c99db58f6bdb
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 612.000061
+    - Name: 
+      Entry: 4
+      Data: -466
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5DE1\u903BA\u70B9"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 1
+    - Name: ChildNodes
+      Entry: 7
+      Data: 39|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 40|JLBehaviourTree.Test.SetObjectActive, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: f63293be-721c-4f3c-b0f9-fa65e428ebfc
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 512
+    - Name: 
+      Entry: 4
+      Data: -296.000031
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u505C\u706B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 0
+    - Name: _isActive
+      Entry: 5
+      Data: false
+    - Name: _particle
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 41|JLBehaviourTree.Test.Goto, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 795a935a-23da-4776-9e92-233ca00c488f
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 720
+    - Name: 
+      Entry: 4
+      Data: -288.000031
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u79FB\u52A8A"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 2
+    - Name: speed
+      Entry: 4
+      Data: 2.5
+    - Name: move
+      Entry: 6
+      Data: 
+    - Name: destination
+      Entry: 6
+      Data: 
+    - Name: failover
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 9
+      Data: 41
+    - Name: 
+      Entry: 9
+      Data: 40
+    - Name: 
+      Entry: 7
+      Data: 42|JLBehaviourTree.Test.SetObjectActive, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 50145a56-9b97-46d2-8cc0-3793eae91d3a
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1029.14819
+    - Name: 
+      Entry: 4
+      Data: -296
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u505C\u706B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 1
+    - Name: _isActive
+      Entry: 5
+      Data: false
+    - Name: _particle
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 43|JLBehaviourTree.Test.Goto, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: a38d4bdd-bc6d-49f8-89a3-8d7a56d52a73
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 843.1482
+    - Name: 
+      Entry: 4
+      Data: -304.000031
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u79FB\u52A8B"
+    - Name: NodeType
+      Entry: 3
+      Data: 4
+    - Name: NodeState
+      Entry: 3
+      Data: 3
+    - Name: speed
+      Entry: 4
+      Data: 2.5
+    - Name: move
+      Entry: 6
+      Data: 
+    - Name: destination
+      Entry: 6
+      Data: 
+    - Name: failover
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|JLBehaviourTree.Test.Parallel, Assembly-CSharp
+    - Name: Guid
+      Entry: 1
+      Data: 57ac16ba-2e7b-401b-a53a-63aa20978cfa
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 928.999939
+    - Name: 
+      Entry: 4
+      Data: -474
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: NodeName
+      Entry: 1
+      Data: "\u5DE1\u903BB\u70B9"
+    - Name: NodeType
+      Entry: 3
+      Data: 2
+    - Name: NodeState
+      Entry: 3
+      Data: 3
+    - Name: ChildNodes
+      Entry: 7
+      Data: 45|System.Collections.Generic.List`1[[JLBehaviourTree.BehaviourTree.BtNodeBase,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 43
+    - Name: 
+      Entry: 9
+      Data: 42
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _colorAll
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.8584906
+    - Name: 
+      Entry: 4
+      Data: 0.433294773
+    - Name: 
+      Entry: 4
+      Data: 0.433294773
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _textColorAll
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+  TreeInstanceID: 25172
+  compositeColor: {r: 0.85882354, g: 0.6862234, b: 0.43137255, a: 1}
+  preconditionColor: {r: 0.19517621, g: 0.65105504, b: 0.8113208, a: 1}
+  actionColor: {r: 0.47113168, g: 0.85882354, b: 0.43137255, a: 1}
+  compositeTextColor: {r: 0, g: 0, b: 0, a: 1}
+  preconditionTextColor: {r: 0, g: 0, b: 0, a: 1}
+  actionTextColor: {r: 0, g: 0, b: 0, a: 1}

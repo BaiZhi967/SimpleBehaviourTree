@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/JLBehaviourTree/Editor/Resources/BehaviourTreeView.uss?fileID=7433441132597879392&amp;guid=3ac2dff440adb554bade4fcc54129aa4&amp;type=3#BehaviourTreeView" />
+    <ui:VisualElement name="node-border" style="width: 150px; height: 120px; -unity-text-align: middle-center; align-items: stretch; justify-content: flex-start; background-image: resource(&apos;NodeBg2&apos;);">
+        <ui:VisualElement name="title" style="flex-shrink: 1; flex-basis: auto; flex-grow: 1;">
+            <ui:Label name="title-label" text="supper Node" class="unity-text-element unity-label" style="flex-grow: 1; flex-shrink: 1; color: rgb(0, 0, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="input" style="align-items: center; justify-content: center; position: absolute; flex-grow: 1; width: 76%; height: 40px; left: 10%; top: 3px; flex-direction: column; min-height: auto; max-height: none;" />
+        <ui:VisualElement name="output" style="position: absolute; left: 10%; width: 77%; height: 40px; bottom: 0;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" />
+</ui:UXML>
